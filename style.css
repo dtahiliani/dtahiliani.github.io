@@ -1,0 +1,26 @@
+body {
+	background-color: #fafafa;
+	font-family: sans-serif;
+	color: #3f3f3f;
+}
+p {
+	color: #3f3f3f;
+	font-size: 14px;
+}
+
+p strong {
+	color: #a92a5f;
+	color: rgb(169, 42, 95);
+}
+
+p em{
+	color: #a92a5f;
+}
+
+.green{
+	color: #646f00;
+}
+
+#special{
+	font-family: Arial;
+}

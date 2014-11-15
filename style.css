@@ -1,95 +1,39 @@
-body {
-	background-color: #ffffff;
-	font-family: sans-serif;
-	color: #404040;
+body{
+	font-family: 'Century Gothic';
 }
-
-H1 {
-	color:#990033;
-}
-
-H2 {
-	color:#a0a0a0;
-}
-
-H3 {
-	color:#a0a0a0;
-}
-p {
-	font-size: 14px;
-}
-
-p strong {
-	color: orange;
-}
-
-p em{
-	color: #a92a5f;
-}
-
-.green{
-	color: #646f00;
-}
-
-#special{
-	font-family: Arial;
-}
-
-img.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .header{
-	text-align:right;
-	color:purple;
-	font-weight:bold;
-	border: 4px dotted #0000ff;
-	padding:15px;
-	margin: 10px;
+	border: 2px solid #000000;
+	text-align: center;
+}
+.subtitle{
+	border: 2px solid #000000;
+	text-align:center;	
 }
 
+.title{
+	border: 2px solid #000000;
+	display: inline-block;
+}
+.timeperiod{
+	border: 2px solid #000000;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right:8px;
+}
 .content{
-	text-align:right;
-	color:dodgerblue;
-	font-weight:bold;
-	border: 4px dashed purple;
-	padding: 15px;
-	margin: auto;
-	width:600px;
-	display:inline-block;
+	border:2px solid #000000;
 }
 
-.sidebar{
-	text-align:right;
-	color:orange;
-	font-weight:bold;
-	border: 4px dashed purple;
-	padding: 15px;
-	margin: 10px;
-	width:300px;
-	display:inline-block;
+.skill{
+	border:2px solid #000000;
+	display: inline-block;
 }
 
-.footer{
-	text-align:right;
-	color:grey;
-	font-weight:bold;
-	border: 8px double purple;
-	padding: 15px;
-	margin: 10px;
+.skills{
+	border:2px solid #000000;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
 }
-
-.important{
-	color:green;
-}
-
-a:link{
-	text-decoration: none;
-}
-
-a:link{color:color:#ff0000;}
-a:visited{color:#00ff00;}
-a:hover{color:#ff00ff;}
-a:active{color:#0000ff;}

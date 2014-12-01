@@ -42,6 +42,9 @@ img.displayed {
 }
 
 .header{
+	position: relative;
+	left: 80px;
+	top: 20px;
 	text-align:right;
 	color:purple;
 	font-weight:bold;
@@ -95,3 +98,35 @@ a:link{color:color:#ff0000;}
 a:visited{color:#00ff00;}
 a:hover{color:#ff00ff;}
 a:active{color:#0000ff;}
+
+.box{
+	position: relative;
+	background-color: orange;
+	padding:20px;
+}
+.bottom{
+	position: relative;
+	bottom:10px;
+	left:60px;
+	background-color:yellow;
+	width: auto;
+	display: inline-block;
+}
+
+.top{
+	position:absolute;
+	bottom:15px;
+	background-color: rgba(255,255,255,.3);
+	color: white;
+	z-index:2;
+}
+
+.sidebox{
+	width: 200px;
+	float: left;
+	background-color: red;
+}
+
+.wrapped{
+	width: auto;
+}

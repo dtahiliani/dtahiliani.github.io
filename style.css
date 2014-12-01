@@ -14,13 +14,18 @@ body{
 	border: 2px solid #000000;
 	display: inline-block;
 }
-.timeperiod{
+/*.timeperiod{
 	border: 2px solid #000000;
 	text-align: right;
 	display: inline-block;
 	vertical-align: top;
 	position: absolute;
 	right:8px;
+}*/
+
+.timeperiod{
+	width:auto;
+	float:right;
 }
 .content{
 	border:2px solid #000000;
